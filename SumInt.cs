@@ -5,7 +5,7 @@ namespace SumInt
 {
     class Program
     {
-        public static int notDividedByTwo(int x)
+        public static int notDividedByTwo(int x) // there's no need to use that method u can skip it and put if-statement in LINQ.WHERE
         {
             if(x % 2 != 0)
             {
